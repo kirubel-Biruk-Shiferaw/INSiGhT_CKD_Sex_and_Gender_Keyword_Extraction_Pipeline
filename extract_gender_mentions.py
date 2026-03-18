@@ -19,9 +19,9 @@ from gender_keywords import find_keywords_en  # (and find_keywords_de for the ge
 # ------------------------------------------------------------
 # 1. CONFIGURATION
 # ------------------------------------------------------------
-PDF_PATH = "KDIGO-2024-CKD-Guideline.pdf"
-OUT_CSV  = "kdigo_gender_mentions.csv"
-OUT_JSON = "kdigo_gender_mentions.jsonl"
+PDF_PATH = "guideline.pdf"
+OUT_CSV  = "guideline_gender_mentions.csv"
+OUT_JSON = "guideline_gender_mentions.jsonl"
 
 # Section page mapping (explicit from user)
 SECTION_MAP = [
