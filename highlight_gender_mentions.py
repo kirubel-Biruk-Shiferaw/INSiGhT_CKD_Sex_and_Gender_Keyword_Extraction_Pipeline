@@ -1,5 +1,5 @@
 """
-Uses kdigo_gender_mentions.csv produced by extract_gender_mentions.py.
+Uses guideline_gender_mentions.csv produced by extract_gender_mentions.py.
 """
 import ast
 import re
@@ -10,9 +10,9 @@ import pandas as pd
 # Import the same keyword detection logic
 from gender_keywords import find_keywords_en
 
-PDF_IN  = "KDIGO-2024-CKD-Guideline.pdf"
-CSV_IN  = "kdigo_gender_mentions.csv"
-PDF_OUT = "KDIGO-2024-CKD-Guideline_highlighted_wordsafe.pdf"
+PDF_IN  = "Guideline.pdf"
+CSV_IN  = "guideline_mentions.csv"
+PDF_OUT = "Guideline_highlighted_wordsafe.pdf"
 
 def parse_terms(x):
     """Parse matched_terms column which may be a stringified Python list."""
