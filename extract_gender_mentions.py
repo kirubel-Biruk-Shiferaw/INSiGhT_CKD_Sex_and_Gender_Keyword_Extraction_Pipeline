@@ -1,7 +1,7 @@
 """
 extract_gender_mentions.py
 
-Extract sex/gender-related mentions from KDIGO 2024 CKD guideline
+Extract sex/gender-related mentions from CKD guideline
 using detailed keyword lists and regex patterns from gender_keywords.py.
 """
 # python -m spacy download en_core_web_lg, make sure to download this spacy model
