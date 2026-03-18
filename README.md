@@ -28,11 +28,8 @@ INSiGhT CKD Sex and Gender Keyword Extraction Pipeline
 ## 1. Setup environment
 
 Create a clean Python environment (recommended):
-python -m venv venv
-source venv/bin/activate   # (Linux/Mac)
-venv\Scripts\activate      # (Windows)
-Install dependencies:
-pip install -r requirements.txt
+from the yml file
+Install dependencies
 Install spaCy model:
 python -m spacy download en_core_web_lg
 ## 2. Prepare input data
